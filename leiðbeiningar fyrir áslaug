@@ -1,0 +1,9 @@
+til að búa til nýa user þarftu fyrst að vera logað inn sem root user, gerðu skipunin su root og settu in lykilorðið og þá ertu skráð inn sem root.
+þú gerir skypunin useradd og til að setja þeim í aðal hóp geriru -g og svo hópnafnið eða ef þú vilt setja þeim í viðbótar hópar geriru -G og svo nafnið á hópana.
+
+*useradd -m -c 'Erla Þorbjörnsdóttir' erla -G allir,markadsmal -s /bin/bash*
+
+hér ofan á er dæmi um nýtt user að vera búin til, þú getur notað þennan skipun en breytt nafnið í svigana fyrir
+nafnið sem þú vilt og svo sett in gælu nafnið eftirá. svo seturu þeim bara í hópana sem þú vilt og ákveður hvaða skell þú vilt þau eru í.
+
+til að virkja aðgang Erlendar og Ellu notaru skipunin usermod -U 'username'  og breyttir username partið með nafnið sem þú vilt virkja aðgang til.
