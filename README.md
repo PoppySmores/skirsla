@@ -1,1 +1,1 @@
-# skirsla.md
+# skirsla
